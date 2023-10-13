@@ -22,7 +22,6 @@ int main(void)
 	printf("\n\nValor da variavel 1: %d\n\nValor da variavel 2: %10.2f", val1,val2);
 	
 	printf("\n\nNome: %s", nome);
-
 	
 	return 0 ;
 
