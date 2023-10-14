@@ -1,5 +1,5 @@
 #include<stdio.h> 
-#include<locale.h> // colocar em português
+#include<locale.h> // colocar em portuguÃªs
 int main(void){
 
 	char sexo;
@@ -17,11 +17,11 @@ int main(void){
 	sexo=getchar();
 	
 	printf("\nInforme a nota 1: ");
-	scanf("%f", &nota1); // digitar com ponto, e não virgula 
+	scanf("%f", &nota1); // digitar com vÃ­rgula, e nÃ£o ponto 
 	printf("\nInforme a nota 2: ");
 	scanf("%f",&nota2);
 	
-	printf("\n%s é do sexo %c possui média = %.2f", nome, sexo,(nota1+nota2)/2);
+	printf("\n%s Ã© do sexo %c possui mÃ©dia = %.2f", nome, sexo,(nota1+nota2)/2);
 	
 	return 0;
 
