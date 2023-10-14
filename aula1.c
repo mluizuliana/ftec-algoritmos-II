@@ -7,19 +7,35 @@ int main(void)
 	
 	printf("Eu amo C!");
 
+	/* nova linha */ 
+	
 	printf("\n\nEu \namo\nC!");
+
+	/* tabulacao */
 	
 	printf("\n\nEu \t\tamo C!");
+
+	/* backspace volta um espaço */ 
 	
 	printf("\n\nEu \bamo C!");
+
+	/* retorno - retorno de carro, ao inicio da linha */ 
 	
 	printf("\n\nEu amo \rC!");
+
+	/* imprime \ */ 
 	
 	printf("\n\nEu amo C \\");
 
+	/* imprime % */ 
+
 	printf("\n\nEu amo C %%");
 
+	/* d ou %i = inteiro & %f = float */ 
+
 	printf("\n\nValor da variavel 1: %d\n\nValor da variavel 2: %10.2f", val1,val2);
+
+	/* string/cadeira de caracteres */ 
 	
 	printf("\n\nNome: %s", nome);
 	
